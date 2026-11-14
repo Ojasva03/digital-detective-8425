@@ -1,0 +1,127 @@
+$ pwd
+/Users/[redacted]/digital-detective-8425
+exit status: 0
+
+$ ls
+README.md
+evidence
+mission-00-setup
+mission-01-computer-basics
+mission-02-terminal
+mission-03-operating-system
+mission-04-programs
+mission-05-numbers-data
+mission-06-git-github
+mission-07-networking
+mission-08-final-report
+exit status: 0
+
+$ ls -l
+total 8
+-rw-r--r--  1 [redacted]  staff  3236 Nov 14 19:28 README.md
+drwxr-xr-x  4 [redacted]  staff   128 Nov 14 19:28 evidence
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-00-setup
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-01-computer-basics
+drwxr-xr-x  4 [redacted]  staff   128 Nov 14 19:28 mission-02-terminal
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-03-operating-system
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-04-programs
+drwxr-xr-x  4 [redacted]  staff   128 Nov 14 19:14 mission-05-numbers-data
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-06-git-github
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-07-networking
+drwxr-xr-x  3 [redacted]  staff    96 Nov 14 19:14 mission-08-final-report
+exit status: 0
+
+$ cd mission-02-terminal && pwd
+/Users/[redacted]/digital-detective-8425/mission-02-terminal
+exit status: 0
+
+$ cd .. && pwd
+/Users/[redacted]/digital-detective-8425
+exit status: 0
+
+$ mkdir -p terminal-practice
+exit status: 0
+
+$ touch original.txt
+exit status: 0
+
+$ printf '%s\n' 'First line: Digital Detective' > original.txt
+exit status: 0
+
+$ printf '%s\n' 'Second line: Terminal practice' >> original.txt
+exit status: 0
+
+$ cat original.txt
+First line: Digital Detective
+Second line: Terminal practice
+exit status: 0
+
+$ cp original.txt backup.txt
+exit status: 0
+
+$ mv backup.txt renamed-backup.txt
+exit status: 0
+
+$ ls -lah
+total 16
+drwxr-xr-x  4 [redacted]  staff   128B Nov 14 19:28 .
+drwxr-xr-x  4 [redacted]  staff   128B Nov 14 19:28 ..
+-rw-r--r--  1 [redacted]  staff    61B Nov 14 19:28 original.txt
+-rw-r--r--  1 [redacted]  staff    61B Nov 14 19:28 renamed-backup.txt
+exit status: 0
+
+$ ls -l | head -n 3
+total 16
+-rw-r--r--  1 [redacted]  staff  61 Nov 14 19:28 original.txt
+-rw-r--r--  1 [redacted]  staff  61 Nov 14 19:28 renamed-backup.txt
+exit status: 0
+
+$ brew --version
+Homebrew 7.0.9
+
+$ brew list --formula
+ca-certificates
+cairo
+dav1d
+ffmpeg
+fontconfig
+freetype
+gettext
+giflib
+git
+glib
+graphite2
+harfbuzz
+icu4c@78
+jpeg-turbo
+json-c
+lame
+libpng
+libtiff
+libunistring
+libvmaf
+libvpx
+libx11
+libxau
+libxcb
+libxdmcp
+libxext
+libxrender
+little-cms2
+lz4
+lzo
+mpg123
+openjdk
+openssl@4
+opus
+pcre2
+pixman
+sdl2-compat
+sdl3
+svt-av1
+webp
+x264
+x265
+xorgproto
+xz
+zstd
