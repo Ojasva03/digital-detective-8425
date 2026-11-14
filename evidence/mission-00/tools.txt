@@ -1,0 +1,8 @@
+python3 --version
+Python 3.9.6
+
+git --version
+git version 2.56.0
+
+gh auth status
+command not found: gh
