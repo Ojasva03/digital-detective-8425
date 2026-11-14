@@ -1,0 +1,12 @@
+Local validation results
+PASS: required files are present and nonempty.
+PASS: nine mission READMEs contain all eight required numbered sections.
+PASS: local Markdown links resolve.
+PASS: hello.py printed exactly Hello from Python with exit status 0.
+PASS: converter produced expected results for 13, 25, 31 and 0.
+PASS: converter rejected abc, -1, 1.5 and blank input with exit status 1.
+PASS: converter handled EOF with exit status 1.
+PASS: practice file and renamed backup match and contain two lines.
+PASS: saved text excludes the actual local account names.
+PASS: update-about contains a committed My Learning section; main does not.
+PENDING: remote repository, pushes, pull request, interactive observations and form submission.

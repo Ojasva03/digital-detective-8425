@@ -1,0 +1,8 @@
+e9c8c5b (HEAD -> main) Complete Git and GitHub collaboration mission
+5457702 (update-about) Add My Learning section to the project overview
+35cdf1d Build number converter and practise data representation
+c6aac6f Compare compilers and interpreters
+7f6c7c4 Document operating system and file management
+d8998e0 Complete Terminal and file management mission
+540d5d4 Complete computer basics and IPOS mission
+a16d0ad Set up Digital Detective mission structure
