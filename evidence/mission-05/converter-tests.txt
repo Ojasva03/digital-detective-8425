@@ -1,0 +1,29 @@
+Input: 13
+Enter a non-negative decimal integer: Binary: 0b1101
+Hexadecimal: 0xd
+exit status: 0
+
+Input: 25
+Enter a non-negative decimal integer: Binary: 0b11001
+Hexadecimal: 0x19
+exit status: 0
+
+Input: 31
+Enter a non-negative decimal integer: Binary: 0b11111
+Hexadecimal: 0x1f
+exit status: 0
+
+Input: 0
+Enter a non-negative decimal integer: Binary: 0b0
+Hexadecimal: 0x0
+exit status: 0
+
+Invalid-input test 'abc': exit status 1; controlled error confirmed
+
+Invalid-input test '-1': exit status 1; controlled error confirmed
+
+Invalid-input test '1.5': exit status 1; controlled error confirmed
+
+Invalid-input test '': exit status 1; controlled error confirmed
+
+EOF test: exit status 1; controlled error confirmed

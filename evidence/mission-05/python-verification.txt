@@ -1,0 +1,26 @@
+Interactive Python input:
+bin(13)
+bin(25)
+int('1010', 2)
+int('1101', 2)
+int('A', 16)
+int('1F', 16)
+hex(int('1111', 2))
+hex(13)
+hex(25)
+ord('A')
+ord('a')
+
+Captured output and prompts:
+'0b1101'
+'0b11001'
+10
+13
+10
+31
+'0xf'
+'0xd'
+'0x19'
+65
+97
+>>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>> >>>
