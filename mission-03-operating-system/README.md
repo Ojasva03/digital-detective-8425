@@ -42,6 +42,8 @@ In the permission mode recorded in the evidence, the first character indicates f
 | w | Modify contents | Add/remove entries when traversal is also allowed |
 | x | Execute as a program | Traverse/access entries |
 
+The observed owner permissions allow reading, writing. The owner execute bit is absent.
+
 ### Task 3.4 - OS responsibilities
 
 | Responsibility | Explanation | Example |
