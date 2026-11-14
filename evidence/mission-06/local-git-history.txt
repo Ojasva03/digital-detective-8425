@@ -1,5 +1,9 @@
-e9c8c5b (HEAD -> main) Complete Git and GitHub collaboration mission
-5457702 (update-about) Add My Learning section to the project overview
+4a4a6e6 (update-about) Add My Learning section to the project overview
+dc59669 (HEAD -> main) Record successful process, HTTPS and DNS observations
+3bbf184 Clarify observed owner permissions in the operating-system report
+a27626d Prepare final report and verify local assignment files
+ecf6dd9 Explain networking concepts and website communication
+e9c8c5b Complete Git and GitHub collaboration mission
 35cdf1d Build number converter and practise data representation
 c6aac6f Compare compilers and interpreters
 7f6c7c4 Document operating system and file management
