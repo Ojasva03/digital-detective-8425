@@ -1,0 +1,11 @@
+Attempted command: curl --head --max-time 10 https://example.com
+Exit status: 6
+Result: Could not resolve host: example.com
+
+Attempted command: nslookup example.com
+Exit status: 10
+Result: Operation not permitted; DNS socket creation failed.
+
+An escalated retry was interrupted before a successful result was obtained.
+Repeat these commands interactively and save only privacy-safe results.
+No local IP address, DNS resolver address or Wi-Fi name is included.
