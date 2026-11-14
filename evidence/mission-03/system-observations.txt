@@ -1,0 +1,19 @@
+$ sw_vers
+ProductName:		macOS
+ProductVersion:		27.2
+BuildVersion:		26B123
+
+$ whoami
+[redacted]
+
+$ df -h .
+Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   460Gi   284Gi   139Gi    68%    841k  1.5G    0%   /System/Volumes/Data
+
+Practice file permissions: -rw-r--r--
+
+$ ps -Ao pid,comm
+exit status: 126
+Process-list access blocked by the execution sandbox.
+
+Python collector process observed directly via os.getpid(): 83619
