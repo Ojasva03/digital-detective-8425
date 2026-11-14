@@ -8,7 +8,7 @@ A mini system report covering computer fundamentals, Terminal operations, operat
 
 ## Status and authorship
 
-This is an AI-assisted local draft, not a verified submitted assignment. Review the explanations and replace them with your own wording. Hardware and everyday-system examples are illustrative until you confirm them. Commands and tests are documented with actual observations; blocked activities are marked pending.
+This is an AI-assisted local draft, not a verified submitted assignment. Review the explanations and replace them with your own wording. Hardware and everyday-system examples are illustrative until you confirm them. Commands and tests are documented with actual observations; initially blocked activities and successful follow-up observations are documented.
 
 The assignment requires each mission to be completed, committed and pushed before the next. GitHub was unavailable during preparation. Separate local commits preserve the order of preparation, but do not satisfy those remote checkpoints. Do not represent this history as proof of completed pushes.
 
@@ -47,7 +47,7 @@ Enter a non-negative decimal integer, such as 13. Expected results are `0b1101` 
 
 ## Remaining submission steps
 
-Review and personalize this draft, repeat blocked practical activities, publish the public repository and branch, open and review the pull request, verify all remote commits, and submit the repository URL through the instructor's form. The form URL has not been supplied. See [the final report](mission-08-final-report/README.md) and [GitHub publication instructions](mission-06-git-github/PUBLISHING.md).
+Review and personalize this draft, publish the public repository and branch, open and review the pull request, verify all remote commits, and submit the repository URL through the instructor's form. The form URL has not been supplied. See [the final report](mission-08-final-report/README.md) and [GitHub publication instructions](mission-06-git-github/PUBLISHING.md).
 
 ## Privacy
 

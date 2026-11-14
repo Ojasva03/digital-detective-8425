@@ -6,13 +6,15 @@
 Inspect the OS, account, storage, processes, paths and permissions, and explain OS responsibilities.
 
 ## 2. Work completed
-Checked macOS details, current-account identity, storage and a practice file permission mode. Saved redacted evidence. Process-list access was attempted; opening a GUI editor and identifying its PID remain pending.
+Checked macOS details, current-account identity, storage and a practice file permission mode. Saved redacted evidence. Opened the practice file in TextEdit and identified PID 83781 in a successful process snapshot outside the sandbox.
 
 ## 3. Commands / tools used
 - `sw_vers`: OS version/build.
 - `whoami`: active account (output withheld).
 - `df -h .`: filesystem capacity/usage.
-- `ps -Ao pid,comm`: attempted process listing.
+- `ps -Ao pid,comm`: initial blocked process listing.
+- `open -a TextEdit`: opened the practice file in the editor.
+- `ps -Ao pid,pcpu,pmem,comm`: successful PID and activity snapshot, restricted to selected rows in evidence.
 - `pwd`, `cd`, `ls -l`: paths and file metadata.
 - Python stat and os.getpid: file mode and the collector process PID.
 
@@ -24,11 +26,11 @@ Checked macOS details, current-account identity, storage and a practice file per
 | Operating system | OS product, version and build | See captured `sw_vers` output |
 | Account identity | Which account runs the command | Checked, then redacted |
 | Storage | Filesystem size, used space and available space | See captured `df -h .` output; values are a point-in-time snapshot |
-| System activity | Processes currently running | General process listing attempted; sandbox restrictions may block it |
+| System activity | Processes currently running | Follow-up selected snapshot: launchd PID 1 and TextEdit PID 83781; CPU and memory percentages recorded |
 
 ### Task 3.2 - Processes
 
-A process is a running instance of a program with its own execution state and resources. Its PID is a numeric identifier assigned by the OS; it can change between runs and may later be reused. Python and a web browser are examples of programs that can run as processes; the Python collector PID is actually observed in the evidence. Browser/text-editor launch and PID identification must be completed interactively; no browser PID is claimed here.
+A process is a running instance of a program with its own execution state and resources. Its PID is a numeric identifier assigned by the OS; it can change between runs and may later be reused. Python and a web browser are examples of programs that can run as processes; the Python collector PID is actually observed in the evidence. TextEdit was opened with the practice file and observed with PID 83781; the background process launchd was observed with PID 1. TextEdit showed 0.0% CPU and 0.5% memory in this brief snapshot, while launchd showed 0.6% CPU and 0.1% memory. These values can change immediately.
 
 ### Task 3.3 - Paths and permissions
 
@@ -56,10 +58,10 @@ The observed owner permissions allow reading, writing. The owner execute bit is 
 | Security and permissions | Control which accounts can access resources | Refuse writing to a protected file |
 
 ## 5. Difficulties faced
-Process-list access can be blocked by the sandbox. GUI application launch was not performed. Private account details must not be published.
+The initial process-list attempt was blocked by the sandbox. Private account details must not be published.
 
 ## 6. How I resolved them
-Saved available observations with redaction. Kept interactive process observation explicitly pending instead of inventing results.
+Retried the observation outside the sandbox, opened TextEdit, and saved selected PID/activity rows. Redacted private names and paths from other observations.
 
 ## 7. Evidence / files
 - [System observations](../evidence/mission-03/system-observations.txt)

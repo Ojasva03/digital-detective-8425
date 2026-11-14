@@ -17,3 +17,15 @@ exit status: 126
 Process-list access blocked by the execution sandbox.
 
 Python collector process observed directly via os.getpid(): 83619
+
+Successful follow-up outside the execution sandbox:
+$ open -a TextEdit <repository>/mission-02-terminal/terminal-practice/original.txt
+Exit status: 0
+
+$ ps -Ao pid,pcpu,pmem,comm
+Selected rows only (unrelated processes omitted):
+  PID  %CPU %MEM COMM
+    1   0.6  0.1 /sbin/launchd
+83781   0.0  0.5 /System/Applications/TextEdit.app/Contents/MacOS/TextEdit
+
+The TextEdit PID was 83781 at the time of observation. CPU and memory values are transient snapshots; they are not long-term usage measurements.

@@ -6,7 +6,7 @@
 Explain network concepts, test connectivity and DNS, and trace a website request.
 
 ## 2. Work completed
-Prepared the network table and seven-step website explanation. Attempted a public HTTPS check and DNS lookup; both were blocked in the execution environment, so successful network observations remain pending.
+Prepared the network table and seven-step website explanation. The first public HTTPS check and DNS lookup were blocked in the sandbox. Retried outside it: HTTPS returned HTTP/2 200, and DNS returned two public addresses for example.com.
 
 ## 3. Commands / tools used
 - `curl --head --max-time 10 https://example.com`: attempted HTTPS connectivity test.
@@ -29,7 +29,7 @@ Prepared the network table and seven-step website explanation. Attempted a publi
 
 ### Task 7.2 - Observation interpretation
 
-The HTTPS check failed with `curl: (6) Could not resolve host: example.com`. The DNS command failed with `Operation not permitted` while creating its socket. These results show restrictions or lookup failure in this execution environment; they do not establish that the student's general internet connection is broken. No successful DNS answer or website reachability result is claimed.
+The first HTTPS check failed with `curl: (6) Could not resolve host: example.com`, and the first DNS command failed with `Operation not permitted` while creating its socket. After retrying outside the sandbox, the HTTPS request completed with exit status 0 and response HTTP/2 200. The DNS lookup completed with exit status 0 and returned public example.com addresses 104.20.23.154 and 172.66.147.243. These are the example server addresses, not the local computer's address.
 
 An HTTPS check tests whether lookup and the required connection/HTTP exchange can complete. A DNS lookup asks for records associated with a domain; successful output may include A records for IPv4 and AAAA records for IPv6. DNS supplies an address that the client can use to contact a server; DNS itself does not download the page.
 
@@ -46,10 +46,10 @@ An HTTPS check tests whether lookup and the required connection/HTTP exchange ca
 Protocols define how participants format and exchange messages. DNS resolution, network routing, transport and HTTP have different roles in this process.
 
 ## 5. Difficulties faced
-Network commands were blocked or failed inside the sandbox. A request to retry outside the sandbox was interrupted before successful results were returned.
+The first network commands failed inside the sandbox, and an initial retry was interrupted.
 
 ## 6. How I resolved them
-Recorded the actual failures and provided commands to repeat interactively. No successful connectivity or DNS result was invented.
+Retried both commands outside the sandbox and recorded selected actual results. Omitted local network details and resolver metadata.
 
 ## 7. Evidence / files
 - [Attempted network checks](../evidence/mission-07/network-attempts.txt)

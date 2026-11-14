@@ -9,4 +9,7 @@ PASS: converter handled EOF with exit status 1.
 PASS: practice file and renamed backup match and contain two lines.
 PASS: saved text excludes the actual local account names.
 PASS: update-about contains a committed My Learning section; main does not.
-PENDING: remote repository, pushes, pull request, interactive observations and form submission.
+PASS: TextEdit opened and its PID/activity snapshot recorded on follow-up.
+PASS: public example.com HTTPS check returned HTTP/2 200 on follow-up.
+PASS: public example.com DNS lookup returned two addresses on follow-up.
+PENDING: remote repository, pushes, pull request, personal review and form submission.

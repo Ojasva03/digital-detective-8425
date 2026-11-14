@@ -9,3 +9,23 @@ Result: Operation not permitted; DNS socket creation failed.
 An escalated retry was interrupted before a successful result was obtained.
 Repeat these commands interactively and save only privacy-safe results.
 No local IP address, DNS resolver address or Wi-Fi name is included.
+
+Successful follow-up outside the execution sandbox:
+
+$ curl --head --max-time 10 https://example.com
+Exit status: 0
+Selected response headers:
+HTTP/2 200
+date: Sat, 14 Nov 2026 15:09:09 GMT
+content-type: text/html; charset=utf-8
+server: cloudflare
+
+$ nslookup example.com
+Exit status: 0
+Non-authoritative answer:
+Name: example.com
+Address: 104.20.23.154
+Name: example.com
+Address: 172.66.147.243
+
+The addresses above belong to the public example domain, not the local computer. The resolver address and unrelated metadata are omitted. Results are a snapshot and may differ on another network or date.
