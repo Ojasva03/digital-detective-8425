@@ -52,3 +52,11 @@ Review and personalize this draft, publish the public repository and branch, ope
 ## Privacy
 
 Saved outputs exclude the local username, personal email, device name, serial number, Wi-Fi name and local IP address. Git commits use the supplied GitHub handle and an empty email field to avoid publishing personal email. No passwords or tokens belong in this repository.
+
+## My Learning
+
+Draft for personal review:
+
+- I can use an absolute path from the filesystem root or a relative path from my current directory.
+- Python's bin and hex functions show the same integer in different bases.
+- A local commit saves a snapshot; it becomes available on GitHub only after a successful push.
