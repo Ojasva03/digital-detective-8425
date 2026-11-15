@@ -1,4 +1,4 @@
-# Digital Detective
+# Digital Detective - digital-detective-8425
 
 A mini system report covering computer fundamentals, Terminal operations, operating systems, Python, number systems, text encoding, Git and networking.
 
