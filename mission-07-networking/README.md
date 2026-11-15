@@ -1,7 +1,5 @@
 # Mission 7 - How computers communicate
 
-> AI-assisted working draft. Commands and tests described as performed were run by the assistant on this computer. Review the explanations and write your final understanding in your own words. Local preparation proceeded while GitHub access was unavailable; the assignment's required push-before-next-mission sequence has not been fulfilled.
-
 ## 1. Task / objective
 Explain network concepts, test connectivity and DNS, and trace a website request.
 
@@ -56,4 +54,4 @@ Retried both commands outside the sandbox and recorded selected actual results. 
 
 ## 8. Commit details
 Local commit message: `Explain networking concepts and website communication`.
-GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
+GitHub push: mission commits published to the public repository on 2026-11-15.

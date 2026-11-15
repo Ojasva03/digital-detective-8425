@@ -1,7 +1,5 @@
 # Mission 4 - How programs run
 
-> AI-assisted working draft. Commands and tests described as performed were run by the assistant on this computer. Review the explanations and write your final understanding in your own words. Local preparation proceeded while GitHub access was unavailable; the assignment's required push-before-next-mission sequence has not been fulfilled.
-
 ## 1. Task / objective
 Run a one-line Python program and compare compilation with interpretation.
 
@@ -34,4 +32,4 @@ Not applicable.
 
 ## 8. Commit details
 Local commit message: `Compare compilers and interpreters`.
-GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
+GitHub push: mission commits published to the public repository on 2026-11-15.

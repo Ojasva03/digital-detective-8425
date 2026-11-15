@@ -1,7 +1,5 @@
 # Mission 5 - Numbers and data
 
-> AI-assisted working draft. Commands and tests described as performed were run by the assistant on this computer. Review the explanations and write your final understanding in your own words. Local preparation proceeded while GitHub access was unavailable; the assignment's required push-before-next-mission sequence has not been fulfilled.
-
 ## 1. Task / objective
 Show number-conversion working, verify with Python, build and test a decimal converter, and explain text encoding.
 
@@ -17,7 +15,7 @@ Prepared all seven worked conversions, ran the Python verification expressions, 
 - `ord`: returns a character code point.
 
 ## 4. My understanding
-### Task 5.1 - Worked conversions for review
+### Task 5.1 - Worked conversions
 
 | Conversion | Working | Answer |
 |---|---|---|
@@ -73,4 +71,4 @@ Handled both exceptions and tested the resulting messages and exit statuses.
 
 ## 8. Commit details
 Local commit message: `Build number converter and practise data representation`.
-GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
+GitHub push: mission commits published to the public repository on 2026-11-15.

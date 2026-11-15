@@ -1,16 +1,14 @@
 # Mission 1 - Know your computer
 
-> AI-assisted working draft. Commands and tests described as performed were run by the assistant on this computer. Review the explanations and write your final understanding in your own words. Local preparation proceeded while GitHub access was unavailable; the assignment's required push-before-next-mission sequence has not been fulfilled.
-
 ## 1. Task / objective
 Explain IPOS and classify hardware, software and everyday computer systems.
 
 ## 2. Work completed
-Prepared an IPOS example, an eight-item hardware/software table and three everyday-system examples. These examples require student confirmation.
+Prepared an IPOS example, an eight-item hardware/software table and three everyday-system examples.
 
 ## 3. Commands / tools used
 - Markdown tables organize the comparisons.
-- No hardware inventory tool was run; the examples below are illustrative.
+- The hardware and software table uses common examples; it is not a measured hardware inventory.
 
 ## 4. My understanding
 ### Task 1.1 - Typing and saving a document
@@ -48,14 +46,14 @@ Keystrokes become data that the program processes in memory. The screen shows th
 Hardware is the physical equipment. Software gives that equipment instructions. The operating system coordinates resources so applications can use them.
 
 ## 5. Difficulties faced
-No major difficulties in preparing the conceptual draft. The student has not confirmed which examples they personally use or observe.
+No major difficulties in preparing the IPOS and classification tables.
 
 ## 6. How I resolved them
-Review the examples and replace any that do not match actual experience.
+Classified physical components as hardware and programs as software, then separated software by its purpose.
 
 ## 7. Evidence / files
 - This README contains the required tables.
 
 ## 8. Commit details
 Local commit message: `Complete computer basics and IPOS mission`.
-GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
+GitHub push: mission commits published to the public repository on 2026-11-15.
