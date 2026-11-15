@@ -34,4 +34,4 @@ Not applicable.
 
 ## 8. Commit details
 Local commit message: `Compare compilers and interpreters`.
-GitHub push: pending; no remote publication has been verified.
+GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.

@@ -6,7 +6,7 @@
 Review repository files, validate programs, identify remaining work and prepare submission.
 
 ## 2. Work completed
-Reviewed the nine mission READMEs, required programs, worked conversions, safe evidence and local Git branch. Ran hello.py and converter checks. Successful follow-up process and network observations are saved. GitHub publication, PR activity, personal rewriting and form submission remain pending.
+Reviewed the nine mission READMEs, required programs, worked conversions, safe evidence and local Git branch. Ran hello.py and converter checks. Successful follow-up process and network observations are saved. The public repository and both branches are published, and pull request #1 is open. Personal rewriting, student review and form submission remain pending.
 
 ## 3. Commands / tools used
 - Python pathlib: verify required paths and Markdown links.
@@ -20,15 +20,15 @@ Reviewed the nine mission READMEs, required programs, worked conversions, safe e
 
 | Mission | Local result | Outstanding work |
 |---|---|---|
-| 0 | Structure and tool versions recorded | Create and verify public repository |
+| 0 | Structure, tools and public repository verified | Review in own words |
 | 1 | All required tables drafted | Confirm examples and rewrite explanations |
 | 2 | Commands performed; transcript and practice files saved | Review in own words |
 | 3 | OS, account, storage, permissions and TextEdit process/activity recorded | Review in own words |
 | 4 | hello.py runs; comparison drafted | Review in own words |
 | 5 | All conversions and converter checks present | Reproduce manual working and review explanations |
-| 6 | Dedicated local commits and update-about branch exist | Push branches, create/review PR, record its real URL |
+| 6 | Mission commits and both branches published; PR #1 open, local diff reviewed | Student review; merge only if instructor requests it |
 | 7 | Concepts drafted; HTTPS and DNS checks succeeded on follow-up | Review in own words |
-| 8 | Local file/program checks performed | Verify GitHub, personalize and submit form |
+| 8 | Local checks and public GitHub publication verified | Personalize, review and submit form |
 
 ### Local checklist
 
@@ -47,22 +47,23 @@ Reviewed the nine mission READMEs, required programs, worked conversions, safe e
 - [ ] Student has reviewed and written final explanations in their own words.
 - [x] TextEdit opened; process/PID and activity snapshot recorded.
 - [x] Successful public connectivity and DNS results recorded.
-- [ ] All mission commits pushed and verified on GitHub.
-- [ ] Learning branch pushed and pull request created/reviewed.
-- [ ] Public repository confirmed.
+- [x] All mission commits pushed; repository and remote main verified.
+- [x] Learning branch pushed; PR #1 created and local proposed diff reviewed.
+- [ ] Student has reviewed the open pull request.
+- [x] Public repository confirmed by GitHub API.
 - [ ] URL submitted through the instructor's form.
 
 ### Submission details
 
 Intended URL: https://github.com/Ojasva03/digital-detective-8425
 
-Repository creation/public visibility: unverified. Pull request: not created. Submission: not performed; instructor form URL unavailable. This report does not certify compliance with the required push-before-next-mission sequence because local offline preparation proceeded while GitHub access was unavailable.
+Repository: public and verified. Pull request: https://github.com/Ojasva03/digital-detective-8425/pull/1 (open, unmerged). Submission: not performed; instructor form URL unavailable. This report does not certify compliance with the required push-before-next-mission sequence because local offline preparation proceeded while GitHub access was unavailable.
 
 ## 5. Difficulties faced
-GitHub access is unavailable in this task. Initial network and process restrictions were resolved by successful follow-up checks outside the sandbox. Personal learning cannot be certified by the assistant.
+GitHub access initially failed, but later succeeded using the local Git credential helper. Initial network and process restrictions were resolved by successful follow-up checks outside the sandbox. Personal learning cannot be certified by the assistant.
 
 ## 6. How I resolved them
-Documented all remaining steps and preserved actual evidence. Student review and remote verification are still required; the draft is not represented as a completed submission.
+Documented all remaining steps and preserved actual evidence. Public repository verification and branch publication are complete. Student review and form submission are still required; the draft is not represented as a completed submission.
 
 ## 7. Evidence / files
 - [Project overview](../README.md)
@@ -71,4 +72,4 @@ Documented all remaining steps and preserved actual evidence. Student review and
 
 ## 8. Commit details
 Local commit message: `Prepare final report and verify local assignment files`.
-GitHub push: pending; no remote publication has been verified.
+GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
