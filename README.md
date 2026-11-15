@@ -56,8 +56,6 @@ Saved outputs exclude the local username, personal email, device name, serial nu
 
 ## My Learning
 
-Draft for personal review:
-
 - I can use an absolute path from the filesystem root or a relative path from my current directory.
 - Python's bin and hex functions show the same integer in different bases.
 - A local commit saves a snapshot; it becomes available on GitHub only after a successful push.
