@@ -6,7 +6,7 @@
 Create the correctly named repository and mission structure.
 
 ## 2. Work completed
-Created nine mission folders, a root README, evidence folders, a converter placeholder and a local Git repository on main. The local folder name matches digital-detective-8425. GitHub creation remains pending.
+Created nine mission folders, a root README, evidence folders, a converter placeholder and a local Git repository on main. The local folder name matches digital-detective-8425. The public GitHub repository has been verified and the assignment commits are published.
 
 ## 3. Commands / tools used
 - `python3 --version`: checks Python availability (Python 3.9.6).
@@ -22,7 +22,7 @@ A repository contains project files and the history recorded by Git. Separate mi
 GitHub CLI is unavailable. The student reported installing the GitHub plugin, but its authenticated tools are unavailable in this task.
 
 ## 6. How I resolved them
-Prepared local files with the supplied username Ojasva03 and suffix 8425. Publication is pending; no successful GitHub operation is claimed.
+Prepared local files with the supplied username Ojasva03 and suffix 8425. Fetched the existing GitHub initial README commit, reconciled the unrelated histories while preserving the assignment, and pushed main and update-about successfully.
 
 ## 7. Evidence / files
 - [Project overview](../README.md)
@@ -31,4 +31,4 @@ Prepared local files with the supplied username Ojasva03 and suffix 8425. Public
 
 ## 8. Commit details
 Local commit message: `Set up Digital Detective mission structure`.
-GitHub push: pending; no remote publication has been verified.
+GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.

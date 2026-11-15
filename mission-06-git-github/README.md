@@ -6,7 +6,7 @@
 Use staging and commits, create a branch, and prepare GitHub collaboration documentation.
 
 ## 2. Work completed
-Created dedicated local mission commits, inspected status/history, and created update-about with a committed My Learning section. Returned to main. The branch remains local and unmerged; no pull request exists yet.
+Created dedicated local mission commits, inspected status/history, and created update-about with a committed My Learning section. Returned to main. Both branches are published. Pull request #1 is open and unmerged; its README learning change has been reviewed locally.
 
 ## 3. Commands / tools used
 | Operation | Command | Explanation |
@@ -20,8 +20,8 @@ Created dedicated local mission commits, inspected status/history, and created u
 | List branches | `git branch` | Display local branch names |
 | Switch branch | `git switch main` | Return to the main branch |
 | Inspect changes | `git diff main...update-about -- README.md` | Show the proposed branch change |
-| Publish (pending) | `git push -u origin main` | Upload commits and establish tracking |
-| Retrieve (pending) | `git fetch origin` | Download remote objects and references |
+| Publish | `git push -u origin main` | Upload commits and establish tracking |
+| Retrieve | `git fetch origin` | Download remote objects and references |
 | Integrate (pending) | `git pull --ff-only` | Fetch and fast-forward the current branch when possible |
 
 ## 4. My understanding
@@ -31,17 +31,17 @@ A branch is a movable name for a line of development. The update-about branch co
 
 ### Pull request status
 
-Not created. Source branch: update-about. Target branch: main. Local diff is saved as evidence. Branch push, PR creation and review are pending authenticated GitHub access. Do not merge unless the instructor requests it; no merge has been performed.
+Open and unmerged: https://github.com/Ojasva03/digital-detective-8425/pull/1. Source branch: update-about. Target branch: main. Both branches were pushed successfully. The local proposed diff was reviewed and changes only README.md by adding My Learning. Do not merge unless the instructor requests it.
 
 Suggested PR title: **Add My Learning section to the project overview**.
 
 Suggested PR description: **Adds a short learning section about paths, number representation and the difference between local commits and GitHub pushes. Only the root README changes.**
 
 ## 5. Difficulties faced
-GitHub tools are unavailable in this task and GitHub CLI is absent. Installation was reported but access has not been verified. No personal email was supplied for Git authorship.
+The first main push was rejected because GitHub contained a separate initial README commit. GitHub CLI was absent. No personal email was supplied for local Git authorship.
 
 ## 6. How I resolved them
-Created real local commits and branch evidence. Used the supplied handle and an empty author email to avoid inventing or publishing an email. Documented the exact publication steps without claiming they ran.
+Created real local commits and branch evidence. Used the supplied handle and an empty author email to avoid inventing or publishing an email. Fetched origin/main, merged its initial history while keeping the assignment README, and merged main into the learning branch without rewriting published history. Pushed both branches, verified the public repository using the GitHub API, and created pull request #1.
 
 ## 7. Evidence / files
 - [Branch diff](../evidence/mission-06/branch-diff.txt)
@@ -50,4 +50,4 @@ Created real local commits and branch evidence. Used the supplied handle and an 
 
 ## 8. Commit details
 Local commit message: `Complete Git and GitHub collaboration mission`.
-GitHub push: pending; no remote publication has been verified.
+GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.

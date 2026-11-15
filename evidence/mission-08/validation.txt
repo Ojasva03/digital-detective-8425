@@ -12,4 +12,8 @@ PASS: update-about contains a committed My Learning section; main does not.
 PASS: TextEdit opened and its PID/activity snapshot recorded on follow-up.
 PASS: public example.com HTTPS check returned HTTP/2 200 on follow-up.
 PASS: public example.com DNS lookup returned two addresses on follow-up.
-PENDING: remote repository, pushes, pull request, personal review and form submission.
+PASS: main and update-about pushed successfully.
+PASS: GitHub API confirmed public repository and remote main commit.
+PASS: pull request #1 created, open and unmerged.
+PASS: local proposed PR diff changes only README.md.
+PENDING: student personal review, own wording and instructor form submission.
