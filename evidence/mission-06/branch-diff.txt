@@ -1,8 +1,8 @@
 diff --git a/README.md b/README.md
-index dca84cb..2bbdb3e 100644
+index 058e493..a597324 100644
 --- a/README.md
 +++ b/README.md
-@@ -52,3 +52,11 @@ Review and personalize this draft, repeat blocked practical activities, publish
+@@ -52,3 +52,11 @@ Review and personalize this draft, publish the public repository and branch, ope
  ## Privacy
  
  Saved outputs exclude the local username, personal email, device name, serial number, Wi-Fi name and local IP address. Git commits use the supplied GitHub handle and an empty email field to avoid publishing personal email. No passwords or tokens belong in this repository.
