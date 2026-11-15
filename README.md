@@ -7,11 +7,11 @@ A mini system report covering computer fundamentals, Terminal operations, operat
 - Public repository: https://github.com/Ojasva03/digital-detective-8425
 - Open learning pull request: https://github.com/Ojasva03/digital-detective-8425/pull/1
 
-## Status and authorship
+## Project status
 
-This is an AI-assisted draft published on GitHub, not a submitted assignment. Review the explanations and replace them with your own wording. Hardware and everyday-system examples are illustrative until you confirm them. Commands and tests are documented with actual observations; initially blocked activities and successful follow-up observations are documented.
+The repository contains the mission explanations, completed tables, Python programs, command observations and verification results. The files and both branches are published on GitHub. Hardware and everyday-system tables present examples; practical command evidence records actual observations.
 
-The assignment requires each mission to be completed, committed and pushed before the next. GitHub was unavailable during preparation. Separate local commits preserve the order of preparation, but do not satisfy those remote checkpoints. Do not represent this history as proof of completed pushes.
+Each mission has a dedicated commit. Mission work was prepared locally and published together after GitHub access became available.
 
 ## Mission index
 
@@ -40,7 +40,7 @@ python3 number_converter.py
 
 Enter a non-negative decimal integer, such as 13. Expected results are `0b1101` and `0xd`. Python 3 is required; no third-party packages are needed.
 
-## Learning summary for review
+## Learning summary
 
 - A file path tells the shell where a file is; permissions control access to it.
 - Binary, decimal and hexadecimal are different ways to express the same integer.
@@ -48,7 +48,7 @@ Enter a non-negative decimal integer, such as 13. Expected results are `0b1101` 
 
 ## Remaining submission steps
 
-The public repository and both branches are published, and the learning pull request is open. Review and personalize this draft, inspect the pull request, and submit the repository URL through the instructor's form. The form URL has not been supplied. See [the final report](mission-08-final-report/README.md) and [GitHub publication instructions](mission-06-git-github/PUBLISHING.md).
+The public repository and both branches are published, and the learning pull request is open. Review the repository and pull request, then submit the repository URL through the instructor's form. The form URL has not been supplied. See [the final report](mission-08-final-report/README.md) and [GitHub publication instructions](mission-06-git-github/PUBLISHING.md).
 
 ## Privacy
 

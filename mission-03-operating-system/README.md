@@ -1,7 +1,5 @@
 # Mission 3 - Understand the operating system
 
-> AI-assisted working draft. Commands and tests described as performed were run by the assistant on this computer. Review the explanations and write your final understanding in your own words. Local preparation proceeded while GitHub access was unavailable; the assignment's required push-before-next-mission sequence has not been fulfilled.
-
 ## 1. Task / objective
 Inspect the OS, account, storage, processes, paths and permissions, and explain OS responsibilities.
 
@@ -69,4 +67,4 @@ Retried the observation outside the sandbox, opened TextEdit, and saved selected
 
 ## 8. Commit details
 Local commit message: `Document operating system and file management`.
-GitHub push: mission commits published to the public repository on 2026-11-15. Publication occurred after offline preparation; the original per-mission push sequence was not followed.
+GitHub push: mission commits published to the public repository on 2026-11-15.

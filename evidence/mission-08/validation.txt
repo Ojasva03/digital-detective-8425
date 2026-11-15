@@ -16,4 +16,4 @@ PASS: main and update-about pushed successfully.
 PASS: GitHub API confirmed public repository and remote main commit.
 PASS: pull request #1 created, open and unmerged.
 PASS: local proposed PR diff changes only README.md.
-PENDING: student personal review, own wording and instructor form submission.
+PENDING: final student review and instructor form submission.

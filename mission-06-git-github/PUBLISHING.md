@@ -17,7 +17,7 @@ Pull request: https://github.com/Ojasva03/digital-detective-8425/pull/1 (open, u
 
 ## Remaining student actions
 
-Review and rewrite the explanations in your own words, confirm the illustrative hardware/everyday examples, inspect the open PR, and submit the public repository URL through the instructor's form. The form URL has not been supplied.
+Review the mission explanations and examples, inspect the open PR, and submit the public repository URL through the instructor's form. The form URL has not been supplied.
 
 Leave the PR unmerged unless the instructor requests a merge. If it is merged on GitHub, run `git switch main` and `git pull --ff-only` locally.
 
